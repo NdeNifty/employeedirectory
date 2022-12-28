@@ -1,0 +1,13 @@
+1661470616134	geckodriver	INFO	Listening on 127.0.0.1:56209
+1661470619209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56210" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Henry\\AppData\\Local\\Temp\\rust_mozprofileICKDxx"
+1661470619673	Marionette	INFO	Marionette enabled
+1661470619677	Marionette	INFO	Listening on port 56220
+WebDriver BiDi listening on ws://localhost:56210
+Read port: 56220
+1661470619907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Henry\\AppData\\Local\\Temp\\rust_mozprofileICKDxx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56210/devtools/browser/9b37abb5-567a-445b-a63e-7bcdafeb2460
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendors~conversion.070208ce5eb585ddf9b0.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661470687634	Marionette	INFO	Stopped listening on port 56220

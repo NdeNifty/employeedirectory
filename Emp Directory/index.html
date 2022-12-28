@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+ <link href="styles/styles.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+
+<title>Employee Directory</title>
+</head>
+<body>
+  <h2>Star Group of Companies: Employee Directory</h2>
+    <!--  Search for Employees-->
+  <div class="search">
+      <label for="search">Search employees: </label><input
+        type="text"
+        name="search"
+        id="search"
+        class="search-input"
+        placeholder="Browse the employee directory"/>
+    </div>
+  <!-- Directory Contents -->
+  <div class="directory-container"></div>
+
+  <!-- Modal -->
+  <div class="overlay hide">
+    <div class="modal">
+      <p class="close">x</p>
+      <div class="modal-content"></div>
+
+
+    </div>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
